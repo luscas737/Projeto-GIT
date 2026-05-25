@@ -1,0 +1,24 @@
+:root{
+    --cor-primaria: #0d1b2a;
+    --cor-secundaria: #1b263b;
+    --cor-terciaria: #415a77;
+    --cor-destaque: #d4af37;
+    --cor-texto: #ffffff;
+    --cor-fundo: #08262b;
+    --tipo-de-fonte: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    --arredondamento-borda: 10px;
+    --espaco: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--tipo-de-fonte);
+    padding: var(--espaco);
+    line-height: 1.5;
+}
